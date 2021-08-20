@@ -48,11 +48,11 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "fullName='" + fullName + '\'' +
-                ", studentCode='" + studentCode + '\'' +
-                ", dateOfBirth='" + dateOfBirth + '\'' +
-                ", className='" + className + '\'' +
+        return "Thông tin sinh viên =>{" +
+                "Họ và tên : '" + fullName + '\'' +
+                ", Mã sinh viên : '" + studentCode + '\'' +
+                ", Ngày sinh : '" + dateOfBirth + '\'' +
+                ", Lớp'" + className + '\'' +
                 '}';
     }
 }

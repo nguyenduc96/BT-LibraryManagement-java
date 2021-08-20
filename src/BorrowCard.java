@@ -60,12 +60,12 @@ public class BorrowCard {
 
     @Override
     public String toString() {
-        return "BorrowCard{" +
-                "borrowCardNumber=" + borrowCardNumber +
-                ", borrowDate='" + borrowDate + '\'' +
-                ", term='" + termDate + '\'' +
-                ", bookNumber='" + bookNumber + '\'' +
-                ", student=" + student +
+        return "Thông tin thẻ mượn => {" +
+                "Mã thẻ mượn : " + borrowCardNumber +
+                ", Ngày mượn : '" + borrowDate + '\'' +
+                ", Ngày trả : '" + termDate + '\'' +
+                ", Mã số sách : '" + bookNumber + '\'' +
+                ", " + student +
                 '}';
     }
 }
